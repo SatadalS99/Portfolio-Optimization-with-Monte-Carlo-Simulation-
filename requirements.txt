@@ -1,0 +1,20 @@
+# Core scientific stack used by portfolio_mc.py
+# Lower bounds are the minimum that works; the "verified" comment records the
+# exact version the reported results were produced with.
+numpy>=1.24          # verified: 2.5.1
+pandas>=2.0          # verified: 2.2.3
+scipy>=1.10          # verified: 1.18.0
+matplotlib>=3.7      # verified: 3.10.0
+
+# Required for the full Phase 1 analysis:
+#   statsmodels -> Ljung-Box test for volatility clustering
+#   seaborn     -> plot styling
+# Both are imported defensively, so the code still runs without them -- but the
+# volatility-clustering results are silently skipped (NaN p-values) if
+# statsmodels is missing. Install them for the analysis the report describes.
+statsmodels>=0.14    # verified: 0.14.6
+seaborn>=0.12        # verified: 0.13.2
+
+# To run the notebook (analysis.ipynb)
+jupyter>=1.0
+ipython>=8.0
