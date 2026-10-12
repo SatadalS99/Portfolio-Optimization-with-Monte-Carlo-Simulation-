@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated pipeline artifacts (rebuilt by the notebook)
+*.pkl
+phase*_outputs.pkl
+phase*_summary*.csv
+phase5_comprehensive_summary.csv
+outputs/
+
+# LaTeX build artifacts (keep the .pdf and .tex, drop the rest)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS
+.DS_Store
+Thumbs.db
