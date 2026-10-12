@@ -131,4 +131,4 @@ Released under the MIT License — see [`LICENSE`](LICENSE).
 
 ## Author
 
-Satadal Santra (Student ID: 230938) — TU Dortmund.
+Satadal Santra  — TU Dortmund.
