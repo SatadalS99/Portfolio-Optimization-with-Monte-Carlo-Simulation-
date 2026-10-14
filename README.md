@@ -104,16 +104,10 @@ A plain-language walkthrough is in
 
 ## Data
 
-The dataset is a cleaned extract of the Kaggle dataset
+The dataset is a cleaned extract of the open source dataset
 *"US Stock Market Giants: Top Companies Stocks Data"*
-(<https://www.kaggle.com/datasets/azharsaleem/us-stock-market-giants-top-companies-stocks-data>):
-7 assets (AMZN, AAPL, XOM, JNJ, MSFT, V, WMT), daily, 2020-01-02 → 2024-11-07 —
+7 assets, daily, 2020-01-02 → 2024-11-07 —
 1,222 trading days per company, 8,554 rows, no missing values.
-
-Note that the CSV keys assets by the `Company` column, which holds lowercase
-names rather than tickers — `amazon`, `apple`, `exxon_mobil`,
-`johnson_and_johnson`, `microsoft`, `visa`, `walmart`. Those strings are what
-appear in every output table and weight vector.
 
 > **Note on redistribution:** check the source dataset's license before committing
 > the CSV. If redistribution isn't permitted, remove the CSV from the repo and
